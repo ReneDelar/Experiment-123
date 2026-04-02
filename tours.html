@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astera Travel | Туры и форматы отдыха</title>
+    <meta
+      name="description"
+      content="Коллекция авторских туров Astera Travel: море, city break, семейные каникулы, гастро-маршруты и путешествия в slow luxury формате."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="tours">
+    <div class="page-glow"></div>
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="index.html" aria-label="Astera Travel">
+          <span class="brand-mark">AT</span>
+          <span class="brand-copy">
+            <strong>Astera Travel</strong>
+            <small>Тур-ателье из Ташкента</small>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Открыть меню"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav">
+          <a href="index.html">Главная</a>
+          <a class="is-active" href="tours.html">Туры</a>
+          <a href="contacts.html">Контакты</a>
+          <a class="button button--ghost header-cta" href="contacts.html#request"
+            >Подобрать маршрут</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero--tours hero--inner">
+        <div class="hero-overlay"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Коллекция маршрутов Astera</p>
+            <h1 class="hero-title">Подбираем не “куда все едут”, а куда вам будет хорошо.</h1>
+            <p class="hero-text">
+              Эти программы можно брать как основу и адаптировать под ваш бюджет,
+              длительность, уровень приватности и формат отдыха.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#collection">Смотреть коллекцию</a>
+              <a class="button button--secondary" href="contacts.html#request"
+                >Запросить свой маршрут</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-panel reveal reveal--delay">
+            <p class="hero-panel-label">Форматы</p>
+            <div class="hero-panel-item">
+              <span>Sea</span>
+              <p>медленные пляжные каникулы с красивым сервисом и логистикой без стресса</p>
+            </div>
+            <div class="hero-panel-item">
+              <span>City</span>
+              <p>короткие поездки с сильной гастро и культурной программой</p>
+            </div>
+            <div class="hero-panel-item">
+              <span>Private</span>
+              <p>индивидуальные сценарии для пары, семьи или мини-группы друзей</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="collection">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-kicker">Коллекция</p>
+            <div class="section-split">
+              <h2>Четыре маршрута, которые особенно хорошо работают в 2026 году.</h2>
+              <p>
+                Используем их как базу и адаптируем: меняем длительность, отели,
+                насыщенность дней и долю свободного времени.
+              </p>
+            </div>
+          </div>
+
+          <div class="program-list">
+            <article class="program reveal" id="amalfi">
+              <div class="program-media">
+                <img
+                  src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1400&q=80"
+                  alt="Лодки у средиземноморского побережья"
+                  loading="lazy"
+                />
+              </div>
+              <div class="program-copy">
+                <p class="program-meta">Италия / 8 дней / май - сентябрь</p>
+                <h3>Амальфи, Капри и винные деревни</h3>
+                <p>
+                  Для тех, кто хочет море, красивый сервис и ритм без спешки:
+                  3 ночи на побережье, 2 ночи на острове и пара дней в камерной Италии.
+                </p>
+                <ul class="detail-list">
+                  <li>Бутик-отели с видом на море и террасой для завтраков</li>
+                  <li>Private boat day вместо массовых экскурсий на катерах</li>
+                  <li>Дегустация на винодельне и reservation-only рестораны</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="program reveal reveal--delay" id="japan">
+              <div class="program-media">
+                <img
+                  src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1400&q=80"
+                  alt="Улица Токио вечером"
+                  loading="lazy"
+                />
+              </div>
+              <div class="program-copy">
+                <p class="program-meta">Япония / 10 дней / круглый год</p>
+                <h3>Токио, Киото, Хаконэ</h3>
+                <p>
+                  Контрастный маршрут для первой поездки в Японию: энергия мегаполиса,
+                  спокойствие храмов, ryokan с онсэном и день с видом на Фудзи.
+                </p>
+                <ul class="detail-list">
+                  <li>Точное расписание поездов и трансферов без перегруза</li>
+                  <li>Сеты omakase, tea house и шопинг-маршрут по кварталам</li>
+                  <li>Варианты на сезон сакуры, momiji или снежную зиму</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="program reveal" id="morocco">
+              <div class="program-media">
+                <img
+                  src="https://images.unsplash.com/photo-1489493887464-892be6d1daae?auto=format&fit=crop&w=1400&q=80"
+                  alt="Пустынный лагерь в Марокко"
+                  loading="lazy"
+                />
+              </div>
+              <div class="program-copy">
+                <p class="program-meta">Марокко / 7 дней / октябрь - апрель</p>
+                <h3>Марракеш, Атлас и ночь в Сахаре</h3>
+                <p>
+                  Если хочется фактуры и цвета: riad в медине, дизайнерские отели,
+                  переезд через Атлас и ночь под звездами в пустыне.
+                </p>
+                <ul class="detail-list">
+                  <li>Фото-ready маршрут с мягкой логистикой и private driver</li>
+                  <li>Гастрономия, рынки, spa-ритуалы и тишина в пустыне</li>
+                  <li>Можно расширить до океана и серф-формата в Эс-Сувейре</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="program reveal reveal--delay-2" id="norway">
+              <div class="program-media">
+                <img
+                  src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1400&q=80"
+                  alt="Фьорды и горы Норвегии"
+                  loading="lazy"
+                />
+              </div>
+              <div class="program-copy">
+                <p class="program-meta">Норвегия / 6 дней / январь - март</p>
+                <h3>Фьорды и северный свет</h3>
+                <p>
+                  Для тех, кому нужен холодный воздух, спокойный luxury и ощущение
+                  настоящего расстояния от города. Идеально для зимней перезагрузки.
+                </p>
+                <ul class="detail-list">
+                  <li>Лоджи с панорамными окнами и открытыми hot tubs</li>
+                  <li>Поездки с гидом за aurora forecast, без группового конвейера</li>
+                  <li>Можно добавить Осло или Копенгаген в формате длинного stopover</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-kicker">Формат отдыха</p>
+            <div class="section-split">
+              <h2>Собираем тур вокруг вас, а не заставляем вас подстраиваться под тур.</h2>
+              <p>
+                Иногда меняем не страну, а структуру дней, и поездка уже звучит совсем иначе.
+              </p>
+            </div>
+          </div>
+
+          <div class="format-grid">
+            <article class="format reveal">
+              <h3>Для пары</h3>
+              <p>Бутик-отели, spa, гастрономия и красивый ритм без ранних подъемов.</p>
+            </article>
+            <article class="format reveal reveal--delay">
+              <h3>Для семьи</h3>
+              <p>Прямые перелеты, удобные стыковки, family room и умеренная насыщенность дней.</p>
+            </article>
+            <article class="format reveal reveal--delay-2">
+              <h3>Для друзей</h3>
+              <p>Виллы, road trip, яхтенные выходы и активные сценарии без организационного хаоса.</p>
+            </article>
+            <article class="format reveal">
+              <h3>Bleisure</h3>
+              <p>Совмещаем работу и отдых: хороший Wi-Fi, тихие отели и структура дня без перегруза.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--accent">
+        <div class="container itinerary-grid">
+          <div class="itinerary-copy reveal">
+            <p class="section-kicker">Как это работает</p>
+            <h2>От первого сообщения до посадочного талона у нас один понятный процесс.</h2>
+            <p>
+              Мы специально убрали лишние круги согласований. Вы быстро понимаете,
+              куда и зачем ехать, а мы быстро переводим это в реальные брони.
+            </p>
+          </div>
+
+          <div class="itinerary-track reveal reveal--delay">
+            <div class="track-step">
+              <strong>Шаг 1</strong>
+              <p>Вы описываете задачу: даты, люди, ориентир по бюджету и желаемое настроение.</p>
+            </div>
+            <div class="track-step">
+              <strong>Шаг 2</strong>
+              <p>Мы присылаем концепцию с направлениями, примерной сметой и логикой маршрута.</p>
+            </div>
+            <div class="track-step">
+              <strong>Шаг 3</strong>
+              <p>После согласования фиксируем перелеты, проживание, трансферы и активности.</p>
+            </div>
+            <div class="track-step">
+              <strong>Шаг 4</strong>
+              <p>Отдаем маршрутный пакет и остаемся на связи во время всей поездки.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container cta-banner reveal">
+          <p class="section-kicker">Персональный подбор</p>
+          <h2>Если нужен не один из этих маршрутов, а что-то “между”, это наша любимая задача.</h2>
+          <p>
+            Заполните короткую форму, и мы соберем направление, которое совпадет
+            по темпу, бюджету и настроению именно с вашей поездкой.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="contacts.html#request">Оставить запрос</a>
+            <a class="button button--secondary" href="contacts.html">Связаться с менеджером</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <div>
+          <a class="brand brand--footer" href="index.html">
+            <span class="brand-mark">AT</span>
+            <span class="brand-copy">
+              <strong>Astera Travel</strong>
+              <small>Авторские путешествия из Ташкента</small>
+            </span>
+          </a>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Главная</a>
+          <a href="contacts.html">Контакты</a>
+          <a href="mailto:hello@astera-travel.uz">hello@astera-travel.uz</a>
+          <a href="tel:+998901112233">+998 90 111 22 33</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
