@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astera Travel | Контакты и заявка на поездку</title>
+    <meta
+      name="description"
+      content="Свяжитесь с Astera Travel: офис в Ташкенте, Telegram и WhatsApp, форма заявки на авторское путешествие и ответы на частые вопросы."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="contacts">
+    <div class="page-glow"></div>
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="index.html" aria-label="Astera Travel">
+          <span class="brand-mark">AT</span>
+          <span class="brand-copy">
+            <strong>Astera Travel</strong>
+            <small>Тур-ателье из Ташкента</small>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Открыть меню"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav">
+          <a href="index.html">Главная</a>
+          <a href="tours.html">Туры</a>
+          <a class="is-active" href="contacts.html">Контакты</a>
+          <a class="button button--ghost header-cta" href="#request">Подобрать маршрут</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero--contacts hero--inner">
+        <div class="hero-overlay"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Связь и бриф</p>
+            <h1 class="hero-title">Расскажите про поездку, а мы переведем идею в маршрут.</h1>
+            <p class="hero-text">
+              Чем понятнее вводные, тем точнее попадем в формат отдыха. Обычно
+              возвращаемся с первой концепцией в течение 72 часов.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#request">Заполнить заявку</a>
+              <a class="button button--secondary" href="tel:+998901112233">Позвонить</a>
+            </div>
+          </div>
+
+          <div class="hero-panel reveal reveal--delay">
+            <p class="hero-panel-label">На связи</p>
+            <div class="hero-panel-item">
+              <span>10:00</span>
+              <p>ежедневно отвечаем на запросы с 10:00 до 20:00 по Ташкенту</p>
+            </div>
+            <div class="hero-panel-item">
+              <span>24/7</span>
+              <p>поддержка в поездке для клиентов с уже оформленным маршрутом</p>
+            </div>
+            <div class="hero-panel-item">
+              <span>RU/EN</span>
+              <p>можем вести коммуникацию на русском и английском языке</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <p class="section-kicker">Контакты</p>
+            <h2>Офис, мессенджеры и быстрый созвон.</h2>
+            <p>
+              Удобнее всего начинать через форму или мессенджер: так мы быстрее
+              соберем вводные и предложим подходящие направления.
+            </p>
+            <div class="contact-list">
+              <div>
+                <span>Офис</span>
+                <p>Ташкент, ул. Шота Руставели, 12</p>
+              </div>
+              <div>
+                <span>Телефон</span>
+                <p><a href="tel:+998901112233">+998 90 111 22 33</a></p>
+              </div>
+              <div>
+                <span>E-mail</span>
+                <p><a href="mailto:hello@astera-travel.uz">hello@astera-travel.uz</a></p>
+              </div>
+              <div>
+                <span>Telegram</span>
+                <p><a href="https://t.me/asteratravel" target="_blank" rel="noreferrer">@asteratravel</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-panel reveal reveal--delay">
+            <p class="contact-panel-label">Лучший сценарий общения</p>
+            <ol class="contact-steps">
+              <li>Оставляете заявку и отмечаете даты, состав и ориентир по бюджету.</li>
+              <li>Мы уточняем детали одним сообщением или коротким звонком.</li>
+              <li>Присылаем концепцию поездки и переходим к бронированию.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="request">
+        <div class="container form-grid">
+          <div class="form-copy reveal">
+            <p class="section-kicker">Заявка</p>
+            <h2>Короткий бриф, после которого уже можно собирать маршрут.</h2>
+            <p>
+              Поля ниже помогают нам не угадывать, а сразу попасть в диапазон
+              бюджета, темпа и направления.
+            </p>
+          </div>
+
+          <form class="travel-form reveal reveal--delay" data-demo-form>
+            <label>
+              Имя
+              <input type="text" name="name" placeholder="Как к вам обращаться" required />
+            </label>
+            <label>
+              Куда тянет
+              <input type="text" name="destination" placeholder="Например: Япония, море, city break" required />
+            </label>
+            <label>
+              Даты
+              <input type="text" name="dates" placeholder="Майские / июль / гибко" required />
+            </label>
+            <label>
+              Состав
+              <input type="text" name="party" placeholder="2 взрослых / семья / друзья" required />
+            </label>
+            <label>
+              Контакт
+              <input type="text" name="contact" placeholder="Telegram, WhatsApp или телефон" required />
+            </label>
+            <label>
+              Бюджет
+              <input type="text" name="budget" placeholder="Ориентир на человека или на всю поездку" />
+            </label>
+            <label class="full">
+              Комментарий
+              <textarea
+                name="notes"
+                rows="5"
+                placeholder="Что важно: красивый отель, гастрономия, отдых без детей, первая поездка в страну, минимум пересадок и т.д."
+              ></textarea>
+            </label>
+            <div class="form-footer full">
+              <button class="button" type="submit">Отправить заявку</button>
+              <p class="form-status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section section--accent">
+        <div class="container faq-layout">
+          <div class="faq-copy reveal">
+            <p class="section-kicker">FAQ</p>
+            <h2>Частые вопросы до первого бронирования.</h2>
+          </div>
+
+          <div class="faq-list reveal reveal--delay">
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Сколько стоит ваша работа?
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Зависит от сложности маршрута. После брифа мы сразу говорим,
+                  входит ли наша работа в сервисный сбор или в стоимость тура.
+                </p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Можно ли собрать путешествие только по отелям и перелетам?
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Да. Мы можем сделать легкий формат: перелеты, проживание,
+                  трансферы и несколько точечных рекомендаций без плотной программы.
+                </p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Вы работаете только с премиальным сегментом?
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Нет. Нам важнее совпасть по ожиданиям. Мы одинаково внимательно
+                  собираем и красивый long weekend, и более высокий luxury-сценарий.
+                </p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Что, если планы меняются уже во время поездки?
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Мы помогаем перестроить логистику, доп. брони и детали маршрута.
+                  Для действующих клиентов поддержка остается в мессенджере.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <div>
+          <a class="brand brand--footer" href="index.html">
+            <span class="brand-mark">AT</span>
+            <span class="brand-copy">
+              <strong>Astera Travel</strong>
+              <small>Авторские путешествия из Ташкента</small>
+            </span>
+          </a>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Главная</a>
+          <a href="tours.html">Туры</a>
+          <a href="mailto:hello@astera-travel.uz">hello@astera-travel.uz</a>
+          <a href="tel:+998901112233">+998 90 111 22 33</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
